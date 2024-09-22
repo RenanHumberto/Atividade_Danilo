@@ -1,0 +1,174 @@
+html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    
+    
+}
+
+iframe{
+    width: 80%;
+    height: 400px;
+    text-align: center;
+    display: block;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid #dddddd;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #171d3e;
+    background-color: #5a77b1;
+    color: #FCFAEE;
+    text-align: center;
+    text-shadow: #fff9f3;
+    font-size: 20px;
+    padding: 8px;
+}
+
+
+hr{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.formacao a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.formacao a:houver{   
+    text-decoration: underline;
+}
+
+.contato h2 {
+    margin-top: 0;
+}
+
+.contato p {
+    margin: 5px 0;
+}
+
+.contato a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+#sobre{
+    padding-left: 20%;
+    padding-right:auto;
+    font-size: 18px;
+}
+
+#formacao{
+    padding-left: 20%;
+    padding-right: auto;
+    font-size: 18px;
+}
+
+#formacao a {
+    margin-top: 10%;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+#formacao a:hover {
+    text-decoration: underline;
+}
+
+#menu{
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu a {
+    padding: 20px;
+    text-align: center;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+#center {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+}
+
+#center img {
+    width: 25px;
+    height: 25px;
+    padding-top: 20px;
+    padding-left: 90%;
+}
+
+#experiencia h2{
+    padding-left: 20%;
+}
+
+
+
+
+
+
+
+
+#teste{
+    border: solid 1px #c9ece7; 
+    padding-top: 5px;
+
+}
+
+#info{
+    -top: 10px;
+}
